@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="automaton"
+version="1.0.0"
+description="Small configs to webdriver and base.py"
+
+authors=[
+    {name="Victor Kipruto", email="victorkosgei254@gmail.com"}
+]
+
+maintainers=[
+    {name="Victor Kipruto", email="victorkosgei254@gmail.com"}
+]
+dependencies=[
+    "Appium-Python-Client"
+]
+
+license={file="LICENSE"}
+readme="README.md"
+keywords=["appium", "python", "windows", "winappdriver"]
+
+[tools.setuptools.packages]
+where = ["."]
