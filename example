@@ -1,0 +1,18 @@
+The following contents are being written by an automated script
+
+Project: DESKTOP AUTOMATION 
+
+TOOLS:
+
+Python: 
+[] Appium-Python-Client 4.0.1
+[] Selenium 4.23.1 
+[] WinAppDriver 1.2.1 
+
+CUSTOM LIBRARIES
+[] DesktopOptions
+[] Custom Remote Driver
+
+Check out my repo on : https://github.com/victorkipruto/desktop-automation
+
+Weekend project

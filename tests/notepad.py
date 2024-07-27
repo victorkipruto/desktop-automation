@@ -13,7 +13,7 @@ caps.set_capability("newCommandTimeout", 60)
 driver = webdriver.Remote(
             command_executor='http://127.0.0.1:4723',
             options=caps)
-with open(file="example.txt",mode="r") as f:
+with open(file="example",mode="r") as f:
     content=f.readlines()
 
 driver.implicitly_wait(30)
